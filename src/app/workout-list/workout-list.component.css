@@ -1,0 +1,56 @@
+.container {
+    max-width: 1000px;  /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+.user input{
+    border: none;
+    background-color: rgb(226, 229, 232);
+    border-bottom: 2px solid black;
+}
+.user select{
+    border: none;
+    background-color: rgb(226, 229, 232);
+    border-bottom: 2px solid black;
+}
+  input, select {
+    margin-right: 10px;
+    padding: 8px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  .pagination-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pagination-section button, 
+  .pagination-section select {
+    margin-right: 10px;
+  }
+  

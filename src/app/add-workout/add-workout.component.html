@@ -1,0 +1,22 @@
+<div class="main">
+    <div class="user">
+        <label for="username">Username*</label>
+        <input id="username" [(ngModel)]="username" />
+    </div>
+    <div class="user">
+        <label for="workoutType">Workout Type*</label>
+        <select id="workoutType" [(ngModel)]="workoutType">
+          <!-- <option value=" "selected></option> -->
+          <option value="running">Running</option>
+          <option value="cycling">Cycling</option>
+          <option value="swimming">Swimming</option>
+          <option value="yoga">Yoga</option>
+        </select>
+    </div>
+    <div class="user">
+        <label for="workoutMinutes">Workout Minutes*</label>
+        <input id="workoutMinutes" type="number" [(ngModel)]="workoutMinutes" placeholder="Enter workout minutes" />
+    </div>
+    <button (click)="addWorkout()">Add Workout</button>
+  </div>
+  
